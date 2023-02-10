@@ -4,7 +4,7 @@
 <template>
     <div class="flex justify-around items-center my-20">
         <div class=" flex items-start pt-11">
-            <svg class="mt-20" width="303" height="304" viewBox="0 0 303 304" fill="none"
+            <svg class="mt-20 hidden xl:block" width="303" height="304" viewBox="0 0 303 304" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <circle cx="151.5" cy="152" r="151.5" fill="black" />
             </svg>
@@ -52,7 +52,7 @@
 
         </div>
         <div class=" flex items-end pb-11 w-80">
-            <svg class="mb-36" width="208" height="208" viewBox="0 0 303 304" fill="none"
+            <svg class="mb-36 hidden xl:block" width="208" height="208" viewBox="0 0 303 304" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <circle cx="151.5" cy="152" r="151.5" fill="black" />
             </svg>
