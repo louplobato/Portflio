@@ -1,0 +1,6 @@
+@import "./base.css";
+
+@font-face {
+  font-family: Chopper;
+  src: url(/fonts/Chopper.otf);
+}
