@@ -28,7 +28,8 @@ hoverban.value = false;
                 Photographie
             </p>
         </div>-->
-        <p class="text-[7vw] font-Chopper text-white mix-blend-difference z-20 absolute text-center left-1/2 ]">
+        <p
+            class="text-[7vw] font-Chopper text-white mix-blend-difference z-20 absolute text-center left-1/2 -translate-x-1/2">
             Photographie
         </p>
 
