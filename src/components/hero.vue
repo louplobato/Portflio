@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col items-center gap-14">
+    <div class="flex flex-col items-center gap-14 fade">
         <img src="../../Logo_noir.svg" alt="logo Loup Lobato" class="w-10">
         <div class="w-3/4 ">
             <div class=" mb-2 min-w-full">

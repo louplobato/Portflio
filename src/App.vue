@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import Menu from "@/components/MenuLogo.vue";
+import MenuOuvert from "./components/MenuOuvert.vue";
 import { ref } from "@vue/reactivity";
 let menuOuvert = ref();
 menuOuvert.value = false;
@@ -20,7 +21,7 @@ menuOuvert.value = false;
 
     <!--Bouton pour afficher menu-->
     <button class="relative p-1 w-fit" aria-controls="menu" :aria-expanded="menuOuvert"
-      @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? 'hidden' : '']">
+      @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']">
       <Menu />
 
     </button>
@@ -38,15 +39,15 @@ menuOuvert.value = false;
           </p>
         </RouterLink>
 
-        <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : 'hidden']">
+        <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']">
           <button aria-controls="menu" :aria-expanded="menuOuvert" class="h-fit w-fit">
-            <Menu />
+            <MenuOuvert class="animate-pulse" />
           </button>
         </div>
       </div>
       <div class="flex mt-16 justify-between items-center flex-col h-3/5">
         <RouterLink to="/">
-          <p class="font-Chopper text-4xl uppercase">
+          <p class="font-Chopper text-4xl uppercase ">
             Accueil
           </p>
         </RouterLink>
