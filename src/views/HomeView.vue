@@ -6,7 +6,7 @@ import Design from "@/components/BanDesign.vue"
 
 <template>
     <div class="test inset-0 bg-black absolute flex justify-center items-center max-h-screen">
-        <p class="font-Chopper text-white text-5xl test2">
+        <p class="font-Chopper text-white text-5xl">
             ~ Bienvenue dans ma tête ~
         </p>
     </div>
@@ -28,35 +28,22 @@ import Design from "@/components/BanDesign.vue"
 
 }
 
-.test2 {
-    z-index: 99;
-    animation: textfade 2s ease-in-out 1s forwards;
-
-}
-
-
 @keyframes fadeout {
-
-
-    0% {
-
-        margin-bottom: 0%;
-    }
-
-    100% {
-
-        margin-bottom: 115%;
-    }
-}
-
-@keyframes textfade {
     0% {
         opacity: 1;
 
     }
 
+    50% {
+        opacity: 0;
+        margin-bottom: 0%;
+        width: 100%;
+    }
+
     100% {
         opacity: 0;
+        margin-bottom: 100%;
+        width: 0%;
     }
 }
 </style>
