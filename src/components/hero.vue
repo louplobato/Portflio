@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col items-center gap-14 fade">
+    <div class="flex flex-col items-center gap-14">
         <img src="../../Logo_noir.svg" alt="logo Loup Lobato" class="w-10">
         <div class="w-3/4 ">
             <div class=" mb-2 min-w-full">
@@ -17,10 +17,10 @@
 
 
             <div>
-                <p class="font-Chopper text-black text-center text-4xl">
+                <p class="font-Chopper text-black text-center text-xl sm:text-2xl md:text-4xl ">
                     Dans ma tête, tout au fond
                 </p>
-                <p class="font-Chopper text-black text-center text-2xl">
+                <p class="font-Chopper text-black text-center text-l sm:text-xl md:text-2xl">
                     ~~ Loup LOBATO ~~
                 </p>
             </div>
@@ -41,6 +41,7 @@
     background-size: 45%, 40%;
     background-position-x: center, 20%;
     background-clip: initial;
+
 
 }
 </style>

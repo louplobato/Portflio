@@ -9,7 +9,7 @@ import Design from "@/components/BanDesign.vue"
         <Hero_Accueil class="mb-9 fade" />
 
 
-        <div>
+        <div class="">
             <Photo />
             <Design />
         </div>

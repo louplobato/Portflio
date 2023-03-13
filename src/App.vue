@@ -20,8 +20,8 @@ menuOuvert.value = false;
     </RouterLink>
 
     <!--Bouton pour afficher menu-->
-    <button class="relative p-1 w-fit" aria-controls="menu" :aria-expanded="menuOuvert"
-      @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']">
+    <button class="relative p-1 w-fit" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert"
+      :class="[menuOuvert ? '' : '']">
       <Menu />
 
     </button>
@@ -30,8 +30,8 @@ menuOuvert.value = false;
 
 
     <!--Menu hamburger déroulé-->
-    <div class="fixed inset-0 translate-x-full motion-safe:transition-transform motion-safe:duration-1000 z-[90]"
-      :class="[' bg-black  text-white', menuOuvert ? 'translate-x-0' : '']">
+    <div class="fixed inset-0 translate-y-full motion-safe:transition-transform motion-safe:duration-1000 z-[90]"
+      :class="[' bg-black  text-white', menuOuvert ? 'translate-y-0' : '']">
       <div class="flex justify-between px-10 items-center h-36 w-full">
         <RouterLink to="/accueil">
           <p class="bg-blend-difference text-white text-3xl font-Chopper">
@@ -45,38 +45,50 @@ menuOuvert.value = false;
           </button>
         </div>
       </div>
-      <div class="flex mt-16 justify-between items-center flex-col h-3/5">
-        <RouterLink to="/">
-          <p class="font-Chopper text-4xl uppercase ">
+      <div class="flex mt-4 justify-between items-left flex-col h-4/5 w-fit mx-auto">
+        <RouterLink to="/" class="flex gap-[5vw] items-center">
+          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             Accueil
           </p>
         </RouterLink>
-        <RouterLink to="/">
-          <p class="font-Chopper text-4xl uppercase">
+        <hr>
+        <RouterLink to="/" class="flex gap-[5vw] items-center">
+          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             Photographie
           </p>
         </RouterLink>
-        <RouterLink to="/">
-          <p class="font-Chopper text-4xl uppercase">
+        <hr>
+        <RouterLink to="/" class="flex gap-[5vw] items-center">
+          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4" st>
             Design
           </p>
         </RouterLink>
-        <RouterLink to="/">
-          <p class="font-Chopper text-4xl uppercase">
+        <hr>
+        <RouterLink to="/" class="flex gap-[5vw] items-center">
+          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             Mtlm
           </p>
         </RouterLink>
-        <RouterLink to="/">
-          <p class="font-Chopper text-4xl uppercase">
+        <hr>
+        <RouterLink to="/" class="flex gap-[5vw] items-center">
+          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             A Propos
           </p>
         </RouterLink>
 
-        <RouterLink to="/">
-          <p class="font-Chopper text-4xl uppercase">
+        <hr>
+        <RouterLink to="/" class="flex gap-[5vw] items-center">
+          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             Contact
           </p>
         </RouterLink>
+
       </div>
     </div>
   </header>
@@ -112,6 +124,4 @@ menuOuvert.value = false;
   </footer>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
