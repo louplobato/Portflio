@@ -13,7 +13,7 @@ menuOuvert.value = false;
   <header class="flex fixed justify-between px-10 items-center h-36 w-full z-[80] top-0 bg-blend-difference">
     <!--Logo du header-->
     <RouterLink to="/">
-      <p class="mix-blend-saturation text-black text-3xl font-Chopper ">
+      <p class="mix-blend-saturation text-black md:text-3xl font-Chopper ">
 
         Loup.raw
       </p>
@@ -22,7 +22,7 @@ menuOuvert.value = false;
     <!--Bouton pour afficher menu-->
     <button class="relative p-1 w-fit" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert"
       :class="[menuOuvert ? '' : '']">
-      <Menu />
+      <Menu class="md:w-16 w-10" />
 
     </button>
 
