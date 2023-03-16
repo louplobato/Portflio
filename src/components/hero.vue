@@ -2,8 +2,8 @@
 </script>
 
 <template>
-    <div class="flex flex-col items-center gap-14">
-        <img src="../../Logo_noir.svg" alt="logo Loup Lobato" class="w-10">
+    <div class="flex flex-col items-center gap-6 md:gap-14 ">
+        <img src="../../Logo_noir.svg" alt="logo Loup Lobato" class="w-[3vw]">
         <div class="w-3/4 ">
             <div class=" mb-2 min-w-full">
                 <div class=" min-w-full heroloup ">

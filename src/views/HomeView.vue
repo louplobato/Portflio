@@ -2,23 +2,42 @@
 import Hero_Accueil from "@/components/hero.vue"
 import Photo from "@/components/BanPhoto.vue"
 import Design from "@/components/BanDesign.vue"
+import MTLM from "@/components/BanMTLM.vue"
+</script>
+<script>
+export default {
+    mounted() {
+        window.scrollTo(0, 0)
+    }
+}
 </script>
 
 <template>
-    <div class="test inset-0 bg-black absolute flex justify-center items-center max-h-screen">
-        <p class="font-Chopper text-white text-5xl">
-            ~ Bienvenue dans ma tête ~
-        </p>
-    </div>
-    <div class="gap-48 flex flex-col">
-        <Hero_Accueil class="mb-9 mt-16" />
-
-
-        <div class="">
-            <Photo />
-            <Design />
+    <section>
+        <Hero_Accueil class="mb-9 mt-[100px] relative" />
+        <div class="test inset-0 bg-black absolute flex justify-center items-center top-[-144px]">
+            <p class="font-Chopper text-white text-[4vw]">
+                ~ Bienvenue dans ma tête ~
+            </p>
         </div>
-    </div>
+    </section>
+
+
+
+    <section class="xl:h-[100vh] flex justify-center items-center">
+        <RouterLink to="/photo" class="w-full">
+            <Photo class="" />
+        </RouterLink>
+    </section>
+
+    <section class="xl:h-[100vh] flex justify-center items-center">
+        <Design />
+    </section>
+
+    <section class="xl:h-100vh flex justify-center items-center xl:my-16">
+        <MTLM class="scale-50" />
+
+    </section>
 </template>
 
 <style>
@@ -27,6 +46,7 @@ import Design from "@/components/BanDesign.vue"
     animation: fadeout 2s ease-in-out 2s forwards;
 
 }
+
 
 @keyframes fadeout {
     0% {
