@@ -47,35 +47,35 @@ menuOuvert.value = false;
       </div>
       <div class="flex mt-4 justify-between items-left flex-col h-4/5 w-fit mx-auto">
         <RouterLink to="/" class="flex gap-[5vw] items-center">
-          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
           <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             Accueil
           </p>
         </RouterLink>
         <hr>
         <RouterLink to="/" class="flex gap-[5vw] items-center">
-          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
           <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             Photographie
           </p>
         </RouterLink>
         <hr>
         <RouterLink to="/" class="flex gap-[5vw] items-center">
-          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
           <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4" st>
             Design
           </p>
         </RouterLink>
         <hr>
         <RouterLink to="/" class="flex gap-[5vw] items-center">
-          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
           <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             Mtlm
           </p>
         </RouterLink>
         <hr>
         <RouterLink to="/" class="flex gap-[5vw] items-center">
-          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
           <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             A Propos
           </p>
@@ -83,7 +83,7 @@ menuOuvert.value = false;
 
         <hr>
         <RouterLink to="/" class="flex gap-[5vw] items-center">
-          <img src="../../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
+          <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
           <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
             Contact
           </p>
