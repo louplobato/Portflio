@@ -35,8 +35,8 @@ export default {
         <Design />
     </section>
 
-    <section class="xl:h-100vh flex justify-center items-center xl:my-16">
-        <MTLM class="scale-50" />
+    <section class="xl:h-100vh flex justify-center items-center">
+        <MTLM class="xl:scale-50 scale-[30%]" />
 
     </section>
 </template>
