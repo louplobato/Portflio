@@ -14,8 +14,8 @@ export default {
 </script>
 
 <template>
-    <section class="h-[100vh]">
-        <Hero_Accueil class="mb-9 mt-[100px] relative" />
+    <section class="h-[100vh] flex justify-center items-center">
+        <Hero_Accueil class="mb-9 mt-[100px] relative w-full" />
         <div class="test inset-0 bg-black absolute flex justify-center items-center top-[-144px]">
             <p class="font-Chopper text-white text-[4vw]">
                 ~ Bienvenue dans ma tête ~
