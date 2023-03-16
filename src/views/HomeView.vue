@@ -51,6 +51,7 @@ export default {
 @keyframes fadeout {
     0% {
         opacity: 1;
+        height: 100vh;
 
     }
 
@@ -58,12 +59,14 @@ export default {
         opacity: 0;
         margin-bottom: 0%;
         width: 100%;
+        height: 100vh;
     }
 
     100% {
         opacity: 0;
         margin-bottom: 100%;
         width: 0%;
+        height: fit-content;
     }
 }
 </style>
