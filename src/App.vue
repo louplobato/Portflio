@@ -10,7 +10,7 @@ menuOuvert.value = false;
 </script>
 
 <template>
-  <header class="flex fixed justify-between px-10 items-center h-36 w-full z-[80] top-0 bg-blend-difference">
+  <header class="flex fixed justify-between px-10 items-center mt-6 w-full z-[80] top-0 bg-blend-difference">
     <!--Logo du header-->
     <RouterLink to="/">
       <p class="mix-blend-saturation text-black md:text-3xl font-Chopper ">
