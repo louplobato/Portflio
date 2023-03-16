@@ -6,6 +6,7 @@ import MTLM from "@/components/BanMTLM.vue"
 </script>
 <script>
 export default {
+
     mounted() {
         window.scrollTo(0, 0)
     }
@@ -13,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <section class="max-h-screen">
+    <section class="h-[100vh]">
         <Hero_Accueil class="mb-9 mt-[100px] relative" />
         <div class="test inset-0 bg-black absolute flex justify-center items-center top-[-144px]">
             <p class="font-Chopper text-white text-[4vw]">
