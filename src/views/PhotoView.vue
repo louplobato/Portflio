@@ -20,7 +20,7 @@ export default {
 
 <template >
     <!--<div class="flex w-full justify-center">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>-->
     <section data-section-name="sec1" class="w-full">
         <RouterLink to="/yam">
             <div class="flex w-4/5 justify-around items-center md:h-[100vh]  mx-auto">
@@ -133,7 +133,7 @@ export default {
                         <p class=" mr-4 md:mr-[-10vh] absolute xl:text-[5vw] text-6xl font-Chopper text-white md:mix-blend-difference z-20 text-right shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-[420px]"
                             :class="['', hoverban ? ' opacity-100, opacity-0 ' : '']">
 
-                            Annomalie Du
+                            Anomalie Du
                             <br>
                             Mannequinat
                         </p>

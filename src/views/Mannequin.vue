@@ -5,7 +5,7 @@
             <div
                 class=" xl:sticky w-full py-8 flex items-center xl:h-[100vh] flex-col justify-center mt-[-145px] top-0 pt-[75px]">
                 <h1 class="text-black sticky xl:text-7xl font-Chopper text-3xl">
-                    Annomalie Du Mannequinat
+                    Anomalie Du Mannequinat
                 </h1>
                 <p class="text-black sticky font-Chopper xl:text-2xl w-1/2 text-center">
                     Une série surrealiste pour ouvrir une réflexion sur la mode et les mannequins.
