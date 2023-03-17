@@ -26,13 +26,13 @@
             </div>
             <div class="w-2/3 flex flex-col gap-5 max-h-full">
                 <div>
-                    <img src="../../Photos/Mannequin1.jpg" alt="">
+                    <img src="../../Photos/mannequin1.jpg" alt="">
                 </div>
                 <div>
-                    <img src="../../Photos/Mannequin2.jpg" alt="">
+                    <img src="../../Photos/mannequin2.jpg" alt="">
                 </div>
                 <div>
-                    <img src="../../Photos/Mannequin3.jpg" alt="">
+                    <img src="../../Photos/mannequin3.jpg" alt="">
                 </div>
             </div>
 
