@@ -32,7 +32,10 @@ export default {
     </section>
 
     <section class="xl:h-[100vh] flex justify-center items-center">
-        <Design />
+        <RouterLink to="/projet" class="w-full">
+            <Design />
+        </RouterLink>
+
     </section>
 
     <section class="xl:h-100vh flex justify-center items-center">
