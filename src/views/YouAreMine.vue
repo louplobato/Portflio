@@ -14,7 +14,7 @@
                     <img src="../../mine-6613.jpg" alt="">
                 </div>
             </div>
-            <div class=" sticky w-2/3 py-8 flex items-center h-[100vh] flex-col justify-center mt-[-70px]">
+            <div class=" sticky w-2/3 py-8 flex items-center h-[100vh] flex-col justify-center mt-[-70px] top-0 ">
                 <h1 class="text-black sticky text-7xl font-Chopper">
                     You Are Mine
                 </h1>
@@ -25,6 +25,7 @@
                     malsaine
                     sur ton épaule, celle qui te retient, te fige, t’effleure, te touche, te solidifie... Celle qui te dit :
                 </p>
+
             </div>
 
         </div>

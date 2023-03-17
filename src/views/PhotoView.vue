@@ -4,7 +4,6 @@ let hoverban = ref();
 
 </script>
 <script >
-import { onMounted } from "vue";
 export default {
     mounted() {
         window.scrollTo(0, 0)
@@ -21,7 +20,7 @@ export default {
 
 <template >
     <!--<div class="flex w-full justify-center">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>-->
     <section data-section-name="sec1" class="w-full">
         <RouterLink to="/yam">
             <div class="flex w-4/5 justify-around items-center md:h-[100vh]  mx-auto">
