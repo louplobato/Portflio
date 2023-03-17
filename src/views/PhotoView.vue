@@ -35,9 +35,9 @@ function applyScroll() {
         sectionName: 'section-name',
         //standardScrollElements: 'section',
         easing: 'easeOutExpo',
-        scrollSpeed: 1100,
+        scrollSpeed: 1000,
         offset: 0,
-        scrollbars: true,
+        scrollbars: false,
         setHeights: true,
         overflowScroll: true,
         updateHash: false,
@@ -69,7 +69,7 @@ function screenCheck() {
 
 <template >
     <!--<div class="flex w-full justify-center">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>-->
     <section data-section-name="sec1" class="w-full">
         <div class="flex w-4/5 justify-around items-center md:h-[100vh]  mx-auto">
             <div class="flex items-center w-full justify-center" aria-controls="ban" :aria-expanded="hoverban"
