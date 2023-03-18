@@ -7,6 +7,7 @@ import YAM from '../views/YouAreMine.vue'
 import exil from '../views/Exil.vue'
 import Gaudi from '../views/Gaudi.vue'
 import Mannequin from '../views/Mannequin.vue'
+import arte from '../views/arte.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,6 +19,7 @@ const router = createRouter({
     { path: '/exil', name: 'exil', component: exil },
     { path: '/gaudi', name: 'Gaudi', component: Gaudi },
     { path: '/mannequin', name: 'Mannequin', component: Mannequin },
+    { path: '/arte', name: 'arte', component: arte },
 
 
   ]
