@@ -54,7 +54,7 @@ export default {
           </button>
         </div>
       </div>
-      <div class="flex mt-4 justify-between items-left flex-col h-4/5 w-fit mx-auto">
+      <div class="flex mt-4 justify-between items-left flex-col h-[70vh] w-fit mx-auto">
         <RouterLink to="/" class="flex gap-[5vw] items-center " @click="menuOuvert = !menuOuvert"
           :class="[menuOuvert ? '' : '']">
           <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
@@ -88,7 +88,7 @@ export default {
         </RouterLink>
 
         <hr>
-        <RouterLink to="/" class="flex gap-[5vw] items-center" @click="menuOuvert = !menuOuvert"
+        <RouterLink to="/contact" class="flex gap-[5vw] items-center" @click="menuOuvert = !menuOuvert"
           :class="[menuOuvert ? '' : '']">
           <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
           <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
@@ -108,7 +108,7 @@ export default {
   </main>
   <footer class="w-full h-96 bg-black">
     <div class="flex flex-col font-Chopper text-xl text-white items-center justify-around h-full p-12">
-      <RouterLink to="/">
+      <RouterLink to="/contact">
 
         <p>
           Contact
