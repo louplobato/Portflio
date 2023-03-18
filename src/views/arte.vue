@@ -1,10 +1,10 @@
 <template>
     <section class="xl:px-10 pb-14">
-        <div class="flex xl:flex-row-reverse flex-col items-center md:items-start justify-between gap-5">
+        <div class="flex xl:flex-row-reverse flex-col items-center xl:items-start justify-between gap-5">
 
             <div
                 class=" xl:sticky w-full py-8 flex items-center xl:h-[100vh] flex-col justify-center mt-[-145px] top-0 pt-[75px]">
-                <h1 class="text-black sticky xl:text-7xl font-Chopper text-3xl">
+                <h1 class="text-black sticky xl:text-7xl font-Chopper text-3xl text-center">
                     Refonte Graphique Arte
                 </h1>
                 <p class="text-black sticky font-Chopper xl:text-2xl w-1/2 text-center">
