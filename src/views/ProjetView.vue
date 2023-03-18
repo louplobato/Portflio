@@ -20,7 +20,7 @@ export default {
 
 <template >
     <!--<div class="flex w-full justify-center">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>-->
     <section data-section-name="sec1" class="w-full">
         <RouterLink to="/arte">
             <div class="flex w-4/5 justify-around items-center md:h-[100vh]  mx-auto">
@@ -53,7 +53,7 @@ export default {
     </section>
 
     <section data-section-name="sec1" class="w-full">
-        <RouterLink to="/exil">
+        <RouterLink to="/ma">
             <div class="flex w-4/5 justify-around items-center md:h-[100vh]  mx-auto">
                 <div class="flex items-center w-full justify-center" aria-controls="ban" :aria-expanded="hoverban"
                     @mouseenter="hoverban = !hoverban" @mouseleave="hoverban = !hoverban">
@@ -72,7 +72,7 @@ export default {
                             <br>
                             Scène Nationale
                         </p>
-                        <img src="../../Photos/Exilés1.jpg" alt="Photo you are mine"
+                        <img src="../../Photos/Mockup-Ma.jpg" alt="Photo you are mine"
                             class="object-cover aspect-square max-w-3xl scale-95 motion-reduce:transition-transform relative motion-safe:duration-500 w-full"
                             :class="['', hoverban ? ' scale-95, scale-105 ' : '']">
                     </div>
