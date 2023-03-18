@@ -10,6 +10,7 @@ import Mannequin from '../views/Mannequin.vue'
 import arte from '../views/arte.vue'
 import Ma from '../views/Ma.vue'
 import Contact from '../views/contact.vue'
+import about from '../views/about.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,6 +25,7 @@ const router = createRouter({
     { path: '/arte', name: 'arte', component: arte },
     { path: '/ma', name: 'Ma', component: Ma },
     { path: '/contact', name: 'contact', component: Contact },
+    { path: '/about', name: 'about', component: about },
 
 
   ]
