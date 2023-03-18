@@ -12,7 +12,7 @@
                     graphique de la chaine Arte en produisant un dossier complet réaliser avec Illustrator et InDesign
                 </p>
 
-                <RouterLink to="/photo">
+                <RouterLink to="/projet">
                     <div class="text-left border border-black w-fit px-3 py-3 mt-6  motion-reduce:transition-transform motion-safe:duration-500 "
                         aria-controls="ban" :aria-expanded="hoverban" @mouseenter="hoverban = !hoverban"
                         @mouseleave="hoverban = !hoverban" :class="['', hoverban ? ' bg-transparent, bg-black ' : '']">
