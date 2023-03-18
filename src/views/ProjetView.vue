@@ -20,7 +20,7 @@ export default {
 
 <template >
     <!--<div class="flex w-full justify-center">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>-->
     <section data-section-name="sec1" class="w-full">
         <RouterLink to="/arte">
             <div class="flex w-4/5 justify-around items-center md:h-[100vh]  mx-auto">
@@ -28,7 +28,7 @@ export default {
                     @mouseenter="hoverban = !hoverban" @mouseleave="hoverban = !hoverban">
 
                     <div class="flex items-center">
-                        <p class="ml-4 md:ml-[-10vh] absolute xl:text-[5vw] text-[10vw] font-Chopper text-white md:mix-blend-difference z-20 text-left shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-[420px]"
+                        <p class="ml-4 md:ml-[-10vh] absolute xl:text-[5vw] text-[10vw] font-Chopper text-white md:mix-blend-difference z-20 text-left shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-full"
                             :class="['', hoverban ? ' opacity-100, opacity-0 ' : '']">
 
                             Refonte Graphique<br>
@@ -65,7 +65,7 @@ export default {
                         <circle cx="282.006" cy="268.211" r="136" fill="black" />
                     </svg>
                     <div class="flex items-center justify-end">
-                        <p class=" mr-4 md:mr-[-10vh] absolute xl:text-[5vw] text-[10vw] font-Chopper text-white md:mix-blend-difference z-20 text-right shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-[420px]"
+                        <p class=" mr-4 md:mr-[-10vh] absolute xl:text-[5vw] text-[10vw] font-Chopper text-white md:mix-blend-difference z-20 text-right shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-full"
                             :class="['', hoverban ? ' opacity-100, opacity-0 ' : '']">
 
                             Programme Ma
@@ -92,7 +92,7 @@ export default {
                     @mouseenter="hoverban = !hoverban" @mouseleave="hoverban = !hoverban">
 
                     <div class="flex items-center">
-                        <p class="ml-4 md:ml-[-10vh] absolute xl:text-[5vw] text-[10vw] font-Chopper text-white md:mix-blend-difference z-20 text-left shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-[420px]"
+                        <p class="ml-4 md:ml-[-10vh] absolute xl:text-[5vw] text-[10vw] font-Chopper text-white md:mix-blend-difference z-20 text-left shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-full"
                             :class="['', hoverban ? ' opacity-100, opacity-0 ' : '']">
 
                             Les Lumières
@@ -129,7 +129,7 @@ export default {
                         <circle cx="282.006" cy="268.211" r="136" fill="black" />
                     </svg>
                     <div class="flex items-center justify-end">
-                        <p class=" mr-4 md:mr-[-10vh] absolute xl:text-[5vw] text-6xl font-Chopper text-white md:mix-blend-difference z-20 text-right shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-[420px]"
+                        <p class=" mr-4 md:mr-[-10vh] absolute xl:text-[5vw] text-6xl font-Chopper text-white md:mix-blend-difference z-20 text-right shadowtext motion-reduce:transition-transform motion-safe:duration-500 w-full"
                             :class="['', hoverban ? ' opacity-100, opacity-0 ' : '']">
 
                             Annomalie Du
