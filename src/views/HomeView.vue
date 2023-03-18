@@ -31,15 +31,10 @@ export default {
         </RouterLink>
     </section>
 
-    <section class="xl:h-[100vh] flex justify-center items-center">
+    <section class="xl:h-[100vh] flex justify-center items-center mb-28">
         <RouterLink to="/projet" class="w-full">
             <Design />
         </RouterLink>
-
-    </section>
-
-    <section class="xl:h-100vh flex justify-center items-center">
-        <MTLM class="xl:scale-50 scale-[30%]" />
 
     </section>
 </template>
