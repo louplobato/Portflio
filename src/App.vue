@@ -43,14 +43,14 @@ export default {
       :class="[' bg-black  text-white', menuOuvert ? 'translate-y-0' : '']">
       <div class="flex justify-between px-10 items-center h-36 w-full">
         <RouterLink to="/accueil">
-          <p class="bg-blend-difference text-white text-3xl font-Chopper">
+          <p class="bg-blend-difference text-white md:text-3xl font-Chopper">
             Loup.raw
           </p>
         </RouterLink>
 
         <div @click="menuOuvert = !menuOuvert" :class="[menuOuvert ? '' : '']">
           <button aria-controls="menu" :aria-expanded="menuOuvert" class="h-fit w-fit">
-            <MenuOuvert class="animate-pulse" />
+            <MenuOuvert class="animate-pulse w-10 md:w-16" />
           </button>
         </div>
       </div>
