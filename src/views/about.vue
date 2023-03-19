@@ -15,4 +15,11 @@
     </div>
 </template>
 <style></style>
-<script></script>
+<script>
+export default {
+
+    mounted() {
+        window.scrollTo(0, 0)
+    }
+}
+</script>
