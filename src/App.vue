@@ -79,7 +79,7 @@ export default {
           </p>
         </RouterLink>
         <hr>
-        <RouterLink to="/" class="flex gap-[5vw] items-center" @click="menuOuvert = !menuOuvert"
+        <RouterLink to="/about" class="flex gap-[5vw] items-center" @click="menuOuvert = !menuOuvert"
           :class="[menuOuvert ? '' : '']">
           <img src="../Logo_blanc.svg" alt="logo Loup Lobato" class="w-[4vw]">
           <p class="font-Chopper text-4xl md:text-8xl uppercase mt-4">
@@ -114,7 +114,7 @@ export default {
           Contact
         </p>
       </RouterLink>
-      <RouterLink to="/">
+      <RouterLink to="/about">
 
         <p>
           A Propos
@@ -123,7 +123,7 @@ export default {
       <RouterLink to="/">
 
         <p>
-          Mentions Légales
+          Loup LOBATO 2023
         </p>
       </RouterLink>
     </div>
